@@ -48,4 +48,5 @@ public class Person3 {
 	  	reverse = input.charAt(i) + reverse;
 	  }
 	  return reverse;
+	}
 }
