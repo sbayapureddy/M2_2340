@@ -31,7 +31,13 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-	  return null;
+		int length = input.length();
+		String result = "";
+		for (int i = 0; i < length; i++) {
+			int rand = (int) (Math.random() * length);
+			result += input.charAt(rand);
+		}
+		return result;
 	}
 	/**
 	 * Return a string rep of this object
