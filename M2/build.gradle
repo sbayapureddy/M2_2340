@@ -1,0 +1,22 @@
+apply plugin: 'java'
+
+defaultTasks 'jar'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'M2',
+        'Implementation-Version': '1.0',
+        'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+        'Class-Path': '../../lib/resources.jar'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //compile group: 'org.hibernate', name: 'hibernate-core', version: '3.6.7.Final'
+    //testCompile group: 'junit', name: 'junit', version: '4.+'
+    compile files ('lib/resources.jar')
+}
