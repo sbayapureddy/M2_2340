@@ -29,9 +29,15 @@ public class Person5 {
 	 * @param input the string to be modified
 	 * @return the modified string
 	 */
-	private String calc(String input) {
+	private static String calc(String input) {
 	  //Person 5 put your implementation here
-	  return null;
+	  String output = new String("");
+	  for(int x = 2; x < input.length(); x++){
+	  	output = output + input.charAt(x);
+	  }
+	  output = output + input.charAt(0);
+	  output = output + input.charAt(1);
+	  return output;
 	}
 	
 	/**
