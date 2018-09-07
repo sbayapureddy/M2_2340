@@ -73,15 +73,8 @@ import edu.gatech.oad.antlab.pkg2.*;
                   toPrint += p4.toString("gvarghese31");
                   //Person5 replace P4 with your name
                   //and gburdell5 with your gt id
-<<<<<<< HEAD
-                  Person5 p5 = new Person5("P5");
-                  toPrint += p5.toString("gburdell5");
-
-=======
                   Person5 p5 = new Person5("Kate");
-                  toPrint += p5.toString("kbeerman9");
-		  
->>>>>>> 20fccca7d6670fec7489aa57eff8f893f2fcbf30
+                  toPrint += p5.toString("kberman9");
         System.out.println(toPrint);
 
 
